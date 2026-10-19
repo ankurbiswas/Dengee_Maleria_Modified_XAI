@@ -1,0 +1,23 @@
+# Data: the surveillance line-lists are patient-level and must never be committed
+*.csv
+*.csv.gz
+*.xlsx
+*.xls
+*.zip
+*.parquet
+*.pkl
+*.joblib
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Operating system
+.DS_Store
+Thumbs.db
